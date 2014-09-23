@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <title>Load &amp; Save (Ajax) - Handsontable</title>
+
+  <!--
+  Loading Handsontable (full distribution that includes all dependencies apart from jQuery)
+  -->
+  <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="../bower_components/handsontable/dist/jquery.handsontable.full.js"></script>
+  <link rel="stylesheet" media="screen" href="../bower_components/handsontable/dist/jquery.handsontable.full.css">
+
+  <!--
+  Loading demo dependencies. They are used here only to enhance the examples on this page
+  -->
+  <link rel="stylesheet" media="screen" href="css/samples.css?20140331">
+  <script src="js/example.js"></script>
+
+</head>
+
+<body>
+
+<div class="wrapper">
+  <div class="wrapper-row">
+
+    <div id="container">
+      <div class="columnLayout">
+
+        <div class="rowLayout">
+          <div class="descLayout">
+            <div class="pad">
+              <h2>Example of handsontable.</h2>
+
+              <div id="example"></div>
+              <p>
+                <button name="load">Load</button>
+                <button name="save">Save</button>
+                <label><input type="checkbox" name="autosave" checked="checked" autocomplete="off">
+                  Autosave</label>
+              </p>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<div id="outside-links-wrapper"></div>
+
+</body>
+</html>
