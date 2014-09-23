@@ -1,0 +1,19 @@
+{
+  "name": "jquery-handsontable-example",
+  "version": "0.0.0",
+  "authors": [
+    "DuJust <du.just.it@gmail.com>"
+  ],
+  "description": "JQuery handsontable example",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "handsontable": "~0.11.3"
+  }
+}
